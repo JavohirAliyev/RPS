@@ -14,7 +14,7 @@ namespace Itransition3{
         public Result identifyWinner(int movePlayer, int moveComputer){
             if (movePlayer == moveComputer){
                 return Result.Draw;
-            } else if((movePlayer > moveComputer && movePlayer - moveComputer != numberOfMoves - 1)) {
+            } else if((movePlayer < moveComputer && moveComputer - movePlayer <= numberOfMoves /2) || (moveComputer < movePlayer && movePlayer - moveComputer > numberOfMoves / 2)) {
                 return Result.Win;
                 } else {
                 return Result.Lose;

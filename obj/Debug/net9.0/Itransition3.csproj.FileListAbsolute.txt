@@ -15,3 +15,4 @@ C:\Users\User\Desktop\Itransition3\obj\Debug\net9.0\ref\Itransition3.dll
 C:\Users\User\Desktop\Itransition3\bin\Debug\net9.0\SHA3.Net.dll
 C:\Users\User\Desktop\Itransition3\obj\Debug\net9.0\Itransition3.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\Itransition3\obj\Debug\net9.0\Itransit.9D49222B.Up2Date
+C:\Users\User\Desktop\Itransition3\obj\Debug\net9.0\Itransition3.sourcelink.json
