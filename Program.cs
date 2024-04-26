@@ -28,7 +28,7 @@ namespace Itransition3
                 // Create instances for classes Crypto, Rules, and Table
                 Crypto crypto = new Crypto();
                 Rules rules = new Rules(args.Length);
-                Table table = new Table();
+                Table table = new Table(args);
 
                 // Generate a random 32-character long key
                 Console.WriteLine("HMAC: " + crypto.GenerateKey());
@@ -51,6 +51,7 @@ namespace Itransition3
                 {
                     // Show help menu
                     Console.WriteLine("Help menu...");
+                    table.ShowTable();
                 }
                 else
                 {
